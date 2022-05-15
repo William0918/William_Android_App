@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/home"
+    tools:context=".GameActivity">
+
+    <ImageButton
+        android:id="@+id/colorsGameButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#878686"
+        android:contentDescription="@string/colors"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/shapesGameButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/colors" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/colors"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageButton
+        android:id="@+id/shapesGameButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/shapes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/colorsGameButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/shapes" />
+
+    <ImageButton
+        android:id="@+id/numbersGameButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="160dp"
+        android:contentDescription="@string/numbers"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/numbers" />
+
+    <ImageButton
+        android:id="@+id/animalsGameButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/animals"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/vehiclesGameButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/animals" />
+
+    <ImageButton
+        android:id="@+id/vehiclesGameButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/vehicles"
+        android:scaleType="centerInside"
+        android:src="@drawable/vehicle"
+        app:layout_constraintEnd_toStartOf="@+id/animalsGameButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/numbers"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclesGameButton" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/animals"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/shapesGameButton" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/vehicles"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorsGameButton" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/shapes"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/homeButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textColor="#DD2C00"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numbersGameButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

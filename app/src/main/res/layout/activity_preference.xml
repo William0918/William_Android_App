@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferenceActivity">
+
+
+    <TextView
+        android:id="@+id/preferenceText"
+        android:layout_width="342dp"
+        android:layout_height="92dp"
+        android:text="@string/choose_your_preferences_for_how_you_want_your_child_to_learn"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/press_the_help_button_to_see_what_effect_these_have"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preferenceText" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferences"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/preferenceText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/underTwoRadio"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/under_two_years_old"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/overTwoRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:checked="true"
+                android:text="@string/over_two_years_old"
+                android:textSize="16sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_is_your_child_s_age"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/what_do_you_want_your_child_to_learn"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <CheckBox
+        android:id="@+id/shapeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="@string/shapes"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/colorSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/colors"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeSwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/letterSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/letters"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorSwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/animalSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/animals"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toEndOf="@+id/shapeSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/vehicleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/vehicles"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toEndOf="@+id/colorSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/animalSwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/numbersSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/numbers"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/letterSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleSwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/homeButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/home"
+        android:text="@string/home"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/letterSwitch" />
+
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/save"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toEndOf="@+id/homeButton"
+        app:layout_constraintTop_toBottomOf="@+id/numbersSwitch" />
+
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="shapeSwitch,colorSwitch,vehicleSwitch,animalSwitch,letterSwitch,numbersSwitch"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

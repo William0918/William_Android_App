@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="learning_time_logo">Learning Time Logo</string>
+    <string name="shapes">Shapes</string>
+    <string name="choose_your_preferences_for_how_you_want_your_child_to_learn">Choose your preferences for how you want your child to learn.</string>
+    <string name="press_the_help_button_to_see_what_effect_these_have">Press the help button to see what effect these have.</string>
+    <string name="preferences">Preferences</string>
+    <string name="under_two_years_old">Under Two Years Old</string>
+    <string name="over_two_years_old">Over Two Years Old</string>
+    <string name="what_is_your_child_s_age">What is your child\'s age?</string>
+    <string name="what_do_you_want_your_child_to_learn">What do you want your child to learn?</string>
+    <string name="colors">Colors</string>
+    <string name="letters">Letters</string>
+    <string name="animals">Animals</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="home">Home</string>
+    <string name="numbers">Numbers</string>
+    <string name="save">Save</string>
+    <string name="what_animal_is_this">What Animal is this?</string>
+    <string name="submit">Submit</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="what_color_is_this">What Color is this?</string>
+    <string name="game">Game</string>
+    <string name="help">Help</string>
+    <string name="preferences_details">This application was designed to help parents teach their young children important objects in the world around them. It was designed to grow with your child. My hope is to help your child, but also help the environment. With using this application to help your child learn you are also reducing the number of books that are created to do the same. Together we can make the world better, starting with our children and also the world they grow up in.</string>
+    <string name="about">About</string>
+    <string name="preference_information">Preference Information</string>
+    <string name="preference_reason">The preferences you set within this app will help decide how your child will learn. When you select ‘under 2’, only the learning activity will be active. This is mainly for learning with the parent’s help. If you select ‘2 or older’, the child will be given a prompt and will then find what the prompt asks for. If you do not select certain objectives, they will not be shown in either game. This are all on by default.</string>
+
+    <string name="color">Color</string>
+    <string name="learning">Learning</string>
+
+    <string name="the_fun_way_to_learn_with_your_child">The Fun Way to Learn With Your Child!</string>
+    <string name="learn">Learn</string>
+    <string name="what_number_is_this">What Number is this?</string>
+    <string name="learning_selection">Learning Selection</string>
+    <string name="result">Result</string>
+    <string name="image">image</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="finish">FINISH</string>
+    <string name="what_shape_is_this">What Shape is this?</string>
+    <string name="what_vehicle_is_this">What Vehicle is this?</string>
+
+
+
+</resources>

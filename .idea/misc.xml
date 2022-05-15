@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable-v24/correct_option_border_bg.xml" value="0.1" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable-v24/wrong_option_border_bg.xml" value="0.1" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable/default_option_border_bg.xml" value="0.1455" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable/finalProject_background.xml" value="0.3635" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.1" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_animal_game.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_animal_game2.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_animal_learning.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_color_game.xml" value="0.34270833333333334" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_color_learning.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_game.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_game2.xml" value="0.33" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_game_action.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_game_action2.xml" value="0.25" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_gametest.xml" value="0.22" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_help.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_help2.xml" value="0.18541666666666667" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_learning.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_learning2.xml" value="0.33" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_learning_action.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_learning_action2.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_letter_game.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_letter_learning.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.35" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_number_game.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_number_learning.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_picking.xml" value="0.24305555555555555" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_picking2.xml" value="0.33" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_preference.xml" value="0.33" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_shape_game.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_shape_learning.xml" value="0.34270833333333334" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_vehicle_game.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activity_vehicle_learning.xml" value="0.3567708333333333" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/layout/activty_preference.xml" value="0.3625" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/mipmap-anydpi-v26/finalProject.xml" value="0.1935" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/mipmap-anydpi-v26/final_project.xml" value="0.1935" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/mipmap-anydpi-v26/final_project_round.xml" value="0.169" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/mipmap-anydpi-v26/images.xml" value="0.1935" />
+        <entry key="..\:/Ivy Tech Classes/SDEV 264/FinalProject/app/src/main/res/mipmap-anydpi-v26/images_round.xml" value="0.1935" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ResultActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".ResultActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/result"
+            android:textColor="@color/primary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="338dp"
+            android:layout_height="350dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/imagetrophy2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/congratulations"
+            android:textColor="@color/primary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/scoreTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/primary"
+            tools:text="Your Score is 0 out of 10" />
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/primary"
+            android:text="@string/finish"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/homeButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/home"
+            android:textColor="#DD2C00"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
